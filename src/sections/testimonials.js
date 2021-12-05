@@ -4,12 +4,12 @@ import SwiperCore, { Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import BlockTitle from 'components/block-title';
 import TestimonialsCard from 'components/cards/testimonial-card';
-import testimonialsImage1 from 'assets/testimonial-1-1.png';
-import testimonialsImage2 from 'assets/testimonial-1-2.png';
-import testimonialsImage3 from 'assets/testimonial-1-3.png';
-import testimonialsImage4 from 'assets/testimonial-1-4.png';
-import testimonialsImage5 from 'assets/testimonial-1-5.png';
-import testimonialsImage6 from 'assets/testimonial-1-6.png';
+import testimonialsImage1 from 'assets/service-1.png';
+import testimonialsImage2 from 'assets/service-2.png';
+import testimonialsImage3 from 'assets/service-3.png';
+import testimonialsImage4 from 'assets/service-4.png';
+import testimonialsImage5 from 'assets/service-5.png';
+import testimonialsImage6 from 'assets/service-6.png';
 
 SwiperCore.use([Autoplay]);
 
