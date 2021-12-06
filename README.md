@@ -1,3 +1,8 @@
+## MSRG Website  
+This webisite was made following [`this`](https://startuplanding.redq.io/) template of React and Next. Feel free to open up issues and contributing to this project.
+
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
