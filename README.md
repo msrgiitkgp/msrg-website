@@ -1,5 +1,5 @@
 ## MSRG Website  
-This webisite was made following [`this`](https://startuplanding.redq.io/) template of React and Next. Feel free to open up issues and contributing to this project.
+This website was made following [`this`](https://startuplanding.redq.io/) template of React and Next. Feel free to open up issues and contributing to this project.
 
 ---
 
