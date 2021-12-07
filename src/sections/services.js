@@ -65,7 +65,7 @@ const SERVICES_DATA = [
   {
     image: drink,
     text:
-      'TFSML bro',
+      'Independent Submodule',
     heading: 'TFSML',
     path: '#',
   }

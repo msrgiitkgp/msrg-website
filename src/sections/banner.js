@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Container, Image, Heading } from 'theme-ui';
 import { keyframes } from '@emotion/core';
-import logoImage from 'assets/Logo 3.png';
+import logoImage from 'assets/logo_wo_text.png';
 import bannerImage from 'assets/banner-mockup.png';
 import bannerIcon1 from 'assets/banner-icon-1-1.svg';
 import bannerIcon2 from 'assets/banner-icon-1-2.svg';
@@ -9,6 +9,11 @@ import bannerIcon3 from 'assets/banner-icon-1-3.svg';
 import bannerIcon4 from 'assets/banner-icon-1-4.svg';
 import bannerIcon5 from 'assets/banner-icon-1-5.svg';
 import bannerIcon6 from 'assets/banner-icon-1-6.svg';
+import bannerIcon6color from 'assets/banner-icon-1-6color.svg';
+import robo1 from 'assets/robo1.svg';
+import robo2 from 'assets/robo2.svg';
+import drone from 'assets/drone.svg';
+import brain from 'assets/brain.svg';
 import bannerIcon7 from 'assets/dot-pattern.svg';
 
 const Banner = () => {
@@ -19,13 +24,13 @@ const Banner = () => {
           sx={styles.bannerIcon1}
           className="bannerIcon"
           alt="banner icon"
-          src={bannerIcon1}
+          src={drone}
         />
         <Image
           sx={styles.bannerIcon2}
           className="bannerIcon"
           alt="banner icon"
-          src={bannerIcon2}
+          src={robo1}
         />
         <Image
           sx={styles.bannerIcon3}
@@ -49,7 +54,7 @@ const Banner = () => {
           sx={styles.bannerIcon6}
           className="bannerIcon"
           alt="banner icon"
-          src={bannerIcon6}
+          src={bannerIcon6color}
         />
         <Image
           sx={styles.bannerIcon7}
@@ -60,7 +65,7 @@ const Banner = () => {
 
         <Image sx={styles.logo} src={logoImage} alt="logo image" />
         <Heading as="h2">Mechanical Sciences Research Group</Heading>
-        <Image src={bannerImage} sx={styles.bannerImage} alt="banner moc" />
+        
       </Container>
     </Box>
   );
@@ -147,6 +152,7 @@ const styles = {
   },
   logo: {
     display: 'block',
+    height: '200px',
     borderRadius: '50%',
     mx: 'auto',
     boxShadow: '0px 15px 35px rgba(65, 104, 139, 0.12)',
@@ -162,7 +168,9 @@ const styles = {
     '.bannerIcon': {
       position: 'absolute',
       display: ['none', null, null, null, 'block'],
+
     },
+    height: '100vh',
   },
   bannerIcon1: {
     top: '10%',
